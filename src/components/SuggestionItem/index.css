@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.suggestion-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.enter-arrow {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
